@@ -4,6 +4,10 @@ if (isset($_REQUEST['photocity_seed'])){
     $user_seed_id = $_REQUEST['photocity_seed'];
     $bundle_file = "/projects/grail/photocity3/user_seeds/".$user_seed_id."/bundle.repos";
 }
+elseif (isset($_REQUEST['lid'])){
+    $lid = $_REQUEST['lid'];
+    $bundle_file = "bundle.".$lid.".out";
+}
 else {
     $bundle_file = "http://grail.cs.washington.edu/projects/photocity/data/piazzadeimeracoli.bundle";
 }

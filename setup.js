@@ -1,6 +1,6 @@
     function loadBundleFile(){
         $.ajax({
-            url: "json_encode_bundle.php?photocity_seed=" + bundle_id
+            url: "json_encode_bundle.php?lid=" + bundle_id
         }
         ).done(function (data) {
             eval(data);

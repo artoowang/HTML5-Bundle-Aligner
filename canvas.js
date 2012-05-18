@@ -1,4 +1,3 @@
-    var apiKey = "AIzaSyClQv8Nd--mzYwgjCYdfuIQRdOQS12C6nE";
     var zoomLevel = 18;
     var map_img = null;
     var mapReady = false;
